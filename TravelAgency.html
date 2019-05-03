@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Travel and Fun</title>
+    <link rel="stylesheet" href="./stilovi/stil.clean.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="header">
+                <a href="#default" class="logo">Travel and Fun</a>
+                <div class="header-right">
+                    <a class="active" href="#home">Home</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
+                </div>
+                <div class="logo-img"> <img id="logo" src="./img/tflogo.png" alt=""> </div>
+            </div>
+        </header>
+
+        <br>
+
+        <div class="putovanja">
+            <h2>Putovanja</h2>
+            <form name="pretraga" method="post">
+                <fieldset class="pretraga">
+                    <dl>
+                        <dt> Želim na </dt>
+                        <dd> <select name="tip" id="tip">
+                                <option value="">Nije važno</option>
+                                <option value="VP">Vikend Putovanja</option>
+                                <option value="DD">Daleke Destinacije</option>
+                                <option value="LT">Letovanje</option>
+                                <option value="NG">Nova Godina</option>
+                                <option value="PP">Party putovanja</option>
+                                <option value="ZM">Zimovanje</option>
+                            </select> </dd>
+
+                        <dt> Da traje </dt>
+                        <dd> <select name="duzina" id="duzina">
+                                <option value="">Nije važno</option>
+                                <option value="1">Od 0 do 7 dana</option>
+                                <option value="2">Od 7 do 14 dana</option>
+                                <option value="3">Više od 14 dana</option>
+                            </select> </dd>
+
+                        <dt> U zemlji </dt>
+                        <dd> <select name="lokacija" id="lokacija">
+                                <option value="">Bilo gde</option>
+                                <option value="AI">Azija - Indija</option>
+                                <option value="ASL">Azija - Šri Lanka</option>
+                                <option value="AT">Azija - Tajland</option>
+                                <option value="CAK">Centralna Amerika - Kuba</option>
+                                <option value="CAM">Centralna Amerika - Meksiko</option>
+                                <option value="EA">Evropa - Austrija</option>
+                                <option value="EBH">Evropa - BiH</option>
+                                <option value="ECG">Evropa - Crna Gora</option>
+                                <option value="EFR">Evropa - Francuska</option>
+                                <option value="EGR">Evropa - Grcka</option>
+                                <option value="EHR">Evropa - Hrvarska</option>
+                                <option value="EIT">Evropa - Italija</option>
+                                <option value="EMK">Evropa - Makedonija</option>
+                                <option value="ENK">Evropa - Nemačka</option>
+                                <option value="ESP">Evropa - Spanija</option>
+                                <option value="ESR">Evropa - Srbija</option>
+                            </select> </dd>
+                    </dl>
+                </fieldset> <input type="hidden" name="pretraga" value="true"> <button type="submit" name="submit">PRETRAGA</button>
+            </form>
+        </div>
+
+        <br>
+
+        <div class="smestaj">
+            <h2>Smestaj</h2>
+            <form name="pretraga" method="post">
+                <fieldset class="pretraga">
+                    <dl>
+                        <dt> Tip smestaja </dt>
+                        <dd> <select name="tips" id="tips">
+                                <option value="">Nije važno</option>
+                                <option value="SB">Soba</option>
+                                <option value="AP">Apartman</option>
+                                <option value="ND">Hotel ND</option>
+                                <option value="PP">Hotel PP</option>
+                                <option value="AI">Hotel AI</option>
+                            </select> </dd>
+
+                        <dt> Kvalitet smestaja </dt>
+                        <dd> <select name="kvalitet" id="kvalitet">
+                                <option value="">Nije važno</option>
+                                <option value="1">*</option>
+                                <option value="2">**</option>
+                                <option value="3">***</option>
+                                <option value="4">****</option>
+                                <option value="5">*****</option>
+                                <option value="6">******</option>
+                            </select> </dd>
+                    </dl>
+                </fieldset> <input type="hidden" name="pretraga" value="true"> <button type="submit" name="submit">PRETRAGA</button>
+            </form>
+        </div>
+
+        <br>
+
+
+        <div class="container-quote">
+            <div class="quote-box">
+                <div class="quote">
+                    <blockquote>
+                        <p>"Poleti i provedi nezaboravne trenutke sa nama - Travel & Fun."</p>
+                        <p>"Avantura pocinje prvim korakom."</p>
+                        <p>"Destinacije snova."</p>
+                        <!--
+                        "Poleti i provedi nezaboravne trenutke sa nama - Travel & Fun."
+                        <br>
+                        "Avantura pocinje prvim korakom."
+                        <br>
+                        "Destinacije snova."
+                        <br>
+                        -->
+                    </blockquote>
+                </div>
+                <div class="name">
+                    Travel and Fun
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+
+
+        <section class="ponude">
+            <h2>Ponude</h2>
+            <div class="container">
+                <figure>
+                    <a href="https://lidertravel.rs/trodnevni-vikend-aranzman-sa-sopstvenim-prevozom-najpopularniji/"
+                        target="_blank"><img src="./img/vikenddestinacije.jpg" alt="text"></a>
+                    <figcaption>
+                        <h3>
+                            <p>Vikend Putovanja</p>
+                        </h3>
+                    </figcaption>
+
+                    <p>Rafting Tarom nije nešto novo, ali defitivno nije ni izvikano. Oni koji odavno uživaju u
+                        bistroj i
+                        divljoj vodi reke Tare, godinama svoje utiske sebično čuvaju, kako im niko ne bi preoteo i
+                        pokvario
+                        to divno iskustvo. Ali, zato smo tu mi da vam predstavimo i približimo tu sjajnu priču!.</p>
+                </figure>
+
+                <figure>
+                    <a href="https://lidertravel.rs/safari-kilimandzaro-zanzibar/" target="_blank"><img src="./img/dalekedestinacije.jpg"
+                            alt="text"></a>
+                    <figcaption>
+                        <h3>
+                            <p>Daleke Destinacije</p>
+                        </h3>
+                    </figcaption>
+
+                    <p>Zanzibar – arhipelag Zanzibar, autonomna regija Tanzanije, sastoji se od dva velika ostrva
+                        Unguja (neformalno ga nazivamo Zanzibar) i Pemba kao i brojnih manjih ostrva. Nalazi se na
+                        35km daleko od obale Tanzanije. Glavni grad je Zanzibar siti (Zanzibar city). Podeljen je u
+                        dva dela: istorijski centar Stone Town što u prevodu znači kameni grad koji je postao i
+                        svetska kulturna baština, i Ng’ambo moderniji deo grada gde većina stanovnika živi i radi.
+                        Ime Zanzibar potiče od arapske reči Zanjibar što je u persijskom jeziku zang-bar, a to u
+                        prevodu znači- crna obala. Glavne industrije na ostrvu su začini (karanfilić, muškatni
+                        oraščić, cimet i crni biber), raffia palme i turizam. Glavna karakteristika ovog arhipelaga
+                        su prelepe peščane plaže. Zanzibar je mešavina afričkih, arapskih, evropskih i indijskih
+                        uticaja pored toga što je bio centar ropstva i centar za trgovinu začinima. Zanzibar je
+                        ostrvo koje je naseljeno već više od 20,000 godina.</p>
+                </figure>
+
+                <figure>
+                    <a href="https://lidertravel.rs/lefkada-grcka-letovanje-za-mlade/" target="_blank"><img src="./img/letovanje.jpg"
+                            alt="text"></a>
+                    <figcaption>
+                        <h3>
+                            <p>Letovanje</p>
+                        </h3>
+                    </figcaption>
+
+                    <p>LEFKADA se nalazi na zapadu Grčke, severno od Kefalonije i Itake i od kopna je odvaja uski
+                        kanal. Jedno je od najlepših grčkih ostrva u Jonskom moru. Ostrvo fantastičnih pejzaža,
+                        dugih peščanih i šljunkovitih plaža koje okružuju impresivne, bele litice i predivne,
+                        mlečnoplave boje mora. Lefkada je turistički relativno nerazvijena, neurbanizovana, sa
+                        divljim plažama među kojima ćete sigurno naći neku po svom ukusu. Lefkada ili Lefkas je
+                        četvrto ostrvo po veličini u Jonskom moru, sa površinom od 300 kvadratna kilometra i obalom
+                        dugom 117 kilometara. Na ostrvu živi oko 22.000 stanovnika. Obzirom da preko kanala ide
+                        pokretni most dužine 50m, ovo je jedino Jonsko ostrvo do koga možete stići kopnenim putem.
+                        Grčka ostrva, a posebno Lefkada je brdovita, dva vrha prelaze visinu od 1.000 metara.
+                        Ostrvo je plodno prekriveno bujnom vegetacijom. Okruženo je sa deset manjih ostrva, od
+                        kojih je najpoznatije Skorpios. Pored veličanstvenih i nesvakidašnjih prirodnih lepota,
+                        ostrvo obiluje kulturnim i zabavnim sadržajima. Tradicionalna grčka sela, vizantijske crkve
+                        i arheološka nalazišta samo upotpunjuju savršen odmor na Lefkadi. Lefkadu sa razlogom zovu
+                        ostrvom boja. Bela boja stena, šljunka i peska po kojima je ostrvo i dobilo ime,
+                        lefko-belo. Nijanse plave boje mora mogu se uporediti samo sa morima dalekih, egzotičnih
+                        destinacija.</p>
+                </figure>
+
+                <figure>
+                    <a href="https://lidertravel.rs/milano-nova-godina/" target="_blank"><img src="./img/newyear.jpg"
+                            alt="text"></a>
+                    <figcaption>
+                        <h3>
+                            <p>Nova Godina</p>
+                        </h3>
+                    </figcaption>
+
+                    <p>Milano je prestonica Lombardije i najveći industrijski grad Italije. Smatra se privrednim i
+                        modnim centrom, sa preko 1,5 milion stanovnika. Čuvena gotska katedrala D´Uomo di Milano i
+                        svetski poznato zdanje opere Milanska skala, samo su deo izuzetno bogatog kulturnog i
+                        arhitektonskog nasleđa grada. U svetu je ipak Milano najpoznatiji kao centar mode i
+                        dizajna, te je ljubiteljima kupovine i najnovijih trendova omiljena destinacija. Milano ima
+                        i veliki broj restorana i noćnih klubova, koji upotpunjuju doživljaj svakom posetiocu. </p>
+                </figure>
+
+                <figure>
+                    <a href="https://lidertravel.rs/krstarenje-mediteranom-13-dana-nocenje-u-rimu-i-milanu-april-i-maj/"
+                        target="_blank"><img src="./img/party.jpg" alt="text"></a>
+                    <figcaption>
+                        <h3>
+                            <p>Party Putovanja</p>
+                        </h3>
+                    </figcaption>
+
+                    <p>Upoznavanje prelepog Mediterana u jesenjim danima počinje iz Savone lučkog grada između
+                        zelenih maslina i borova i plavog mora. Put se dalje nastavlja ka Barseloni, očaravajući
+                        primorski grad sa bezgraničnom kulturom i građevinama slavnih arhitekata, gospodari
+                        katalonske gastronomije očaravaju sve posetioce ovog grada.
+                        Plovimo dalje ka jednom od najstarijih gradova u Evropi, grad koji su osnovali Feničani
+                        negde oko 600-te godine pre naše ere, Marsej. Grad koji će svakog svog posetioca oduševiti
+                        srednjovekovnim građevinama, uličnim pejzažima i dinamičnim duhom ovog grada inače trećeg
+                        poveličini grada u francuskoj.
+                        Posle ovih lepih predela Mediterana povratak u Savonu, ali tu se avantura ne završava.</p>
+                </figure>
+
+                <figure>
+                    <a href="https://lidertravel.rs/skijanje-na-alpima/" target="_blank"><img src="./img/zimovanje.jpg"
+                            alt="text"></a>
+                    <figcaption>
+                        <h3>
+                            <p>Zimovanje</p>
+                        </h3>
+                    </figcaption>
+
+                    <p>Les Sybelles je najveće skijaško područje doline Maurienne i četvrto najveće povezano
+                        skijaško područje u Francuskoj. Ponuda raznolikih ski staza je velika i zato privlači mnogo
+                        ljubitelja zimskih sportova. Ukoliko pored skijanja želite i malo zabave, Les Sybelles je
+                        svakako vredan vašeg vremena i novca.</p>
+
+                    <p>Les Fermes de St. Sorlin je sastavljen od više šaleta u gornjem delu naselja Saint Sorlin
+                        d'Arves. Aktivnost života u apartmanskom naselju dolazi do izražaja naročito zbog noćnog
+                        kluba koji se nalazi u kraju. Ukoliko ste jedan od onih koji vole da se zabavljaju do kasno
+                        u noć a da, ipak, ujutru budu prvi na stazi, obradovaće vas činjenica da staze prolaze tik
+                        uz ulicu u kojoj se nalaze šaleti. Za odmor i rekreaciju nakon skijanja u centralnom
+                        objektu je na raspolaganju upotreba većeg pokrivenog bazena sa dve saune i dva đakuzija.
+                        Apartmani imaju funkcionalno opremljenu kuhinju, dnevnu sobu sa TV prijemnikom, udobne
+                        spavaće sobe, sopstveno kupatilo i balkon sa pogledom na okolne Alpe. Večernje surfovanje
+                        po netu omogućeno je na recepciji putem besplatne bežične internet konekcije.</p>
+                </figure>
+
+            </div>
+        </section>
+
+        <br>
+
+        <section class="pamflet">
+            <h2>Pamflet</h2>
+            <fieldset class="pretraga">
+                <form method="POST" enctype="multipart/form-data" action="#" autocomplete="on"></form>
+
+                <datalist id="destinacije">
+                    <option value="Letovanje" />
+                    <option value="Nova Godina" />
+                    <option value="Party Putovanja" />
+                    <option value="Zimovanje" />
+                    <option value="Vikend Putovanje" />
+                    <option value="Daleke Destinacije" />
+                </datalist>
+
+                <label for="polje_za_destinacija">Destinacija:</label>
+                <br>
+                <input type="text" name="destinacija" id="polje_za_destinacija" maxlength="25" size="25" placeholder="Unesite zelje"
+                    list="destinacije" value="" required>
+
+                <br />
+                <label for="ime_i_prezimeField">Ime i prezime: </label><br />
+                <input id="ime_i_prezimeField" type="text" name="ime_i_prezime" size="25" maxlength="40" required="required"
+                    placeholder="Unesite ime i prezime" list="imena_i_prezimena" enabled />
+                <br />
+                <label for="adresaField">Adresa: </label><br />
+                <input id="adresaField" type="text" name="adresa" size="25" maxlength="40" required="required"
+                    placeholder="Unesite adresa" list="adrese" enabled />
+                <br />
+                <label for="emailField">E-mail: </label><br />
+                <input id="emailField" type="email" name="email" />
+                <br />
+                <label for="kontaktField">Kontakt telefon: </label> <br />
+                <input id="kontaktField" type="tel" name="telefon" />
+                <br />
+                <label for="datumField">Datum polaska: </label> <br />
+                <input id="datumField" type="date" name="date" />
+                <br />
+                <label for="brPutnikaField">Odabrati broj putnika: </label> <br />
+                <input id="brPutnikaField" type="number" name="broj" min="1" max="10" />
+                <br />
+
+
+                <input type="submit" name="prijava" />
+
+            </fieldset>
+        </section>
+
+    </main>
+</body>
